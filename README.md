@@ -22,6 +22,9 @@
   <img alt="Happy" src="./public/icons/Layout.png" width="100%">
 </p>
 
+## Deploy
+- [Vercel](https://move-it-psi-sepia.vercel.app/)
+
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
