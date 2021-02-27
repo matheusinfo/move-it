@@ -44,15 +44,19 @@ export const Button = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
     transition: background-color 0.2s;
     border: 0;
     color: var(--title);
-    background: ${props => props.stop ? 'var(--red)' : 'var(--blue)'};
+    background: ${props => props.stop ? 'var(--red)' : 'var(--green)'};
+
+    &:focus{
+        outline: 0;
+    }
 
     &:not(:disabled):hover{
-        background: ${props => props.stop ? 'var(--red-dark)' : 'var(--blue-dark)'};
+        background: ${props => props.stop ? 'var(--red-dark)' : 'var(--green-dark)'};
     }
 
     &:disabled{
