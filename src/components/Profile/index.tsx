@@ -10,7 +10,7 @@ export function Profile (){
         <Container>
             <img src="http://github.com/matheusinfo.png" alt="matheusinfo"/>
             <div>
-                <strong>Matheus Andrade</strong>
+                <strong>MatheusINFO</strong>
                 <p>
                     <img src="icons/level.svg" alt="Level up"/>
                     Level {level}

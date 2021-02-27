@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     height: 100%;
     min-width: 400px;
-    background: var(--white);
+    background: var(--dark);
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0,0,0,0.05);
     padding: 1.5rem 2rem;
@@ -86,7 +86,7 @@ export const Button = styled.button`
     justify-content: center;
     border: 0;
     border-radius: 5px;
-    color: var(--white);
+    color: var(--title);
     font-size: 1rem;
     font-weight: 600;
     background: ${props => props.fail ? 'var(--red)' : 'var(--green)'};

@@ -17,7 +17,7 @@ export const Counter = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        background: var(--white);
+        background: var(--dark);
         box-shadow: 0 0 60px rgba(0,0,0,0.05);
         border-radius: 5px;
         font-size: 8.5rem;
@@ -26,8 +26,8 @@ export const Counter = styled.div`
         span{
             min-width: 100px;
             padding: 0 15px;
-            border-right: 1px solid #f0f1f3;
-            border-left: 1px solid #f0f1f3;
+            border-right: 2px solid #111111;
+            border-left: 2px solid #111111;
         }
     }
 
@@ -48,7 +48,7 @@ export const Button = styled.button`
     font-weight: 600;
     transition: background-color 0.2s;
     border: 0;
-    color: var(--white);
+    color: var(--title);
     background: ${props => props.stop ? 'var(--red)' : 'var(--blue)'};
 
     &:not(:disabled):hover{
@@ -57,7 +57,7 @@ export const Button = styled.button`
 
     &:disabled{
         border-bottom: 5px solid var(--green);
-        background: var(--white);
+        background: var(--dark);
         color: var(--text);
         cursor: not-allowed;
     }

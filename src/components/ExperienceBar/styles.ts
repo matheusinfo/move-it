@@ -21,6 +21,7 @@ export const Bar = styled.div`
         height: 4px;
         border-radius: 4px;
         background: var(--green);
+        box-shadow: 0 0 1em var(--green);
     }
 
     span{
