@@ -47,6 +47,7 @@ export const Button = styled.button`
     font-size: 1.25rem;
     font-weight: 600;
     transition: background-color 0.2s;
+    border: 0;
     color: var(--white);
     background: ${props => props.stop ? 'var(--red)' : 'var(--blue)'};
 
@@ -55,7 +56,6 @@ export const Button = styled.button`
     }
 
     &:disabled{
-        border: 0;
         border-bottom: 5px solid var(--green);
         background: var(--white);
         color: var(--text);

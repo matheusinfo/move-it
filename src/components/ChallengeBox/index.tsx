@@ -3,7 +3,7 @@ import { ChallengesContext } from '../../contexts/ChallengesContext';
 import { Container, ChallengeInative, ChallengeActive, Button } from './styles'
 
 export function ChallengeBox(){
-    const { activeChallenge, resetChallenge } = useContext(ChallengesContext)
+    const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext)
 
     return(
         <Container>
@@ -20,7 +20,7 @@ export function ChallengeBox(){
                             Falhei
                         </Button>
 
-                        <Button type="button">
+                        <Button type="button" onClick={completeChallenge}>
                             Completei
                         </Button>
                     </footer>
