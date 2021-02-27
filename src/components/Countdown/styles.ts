@@ -46,13 +46,13 @@ export const Button = styled.button`
     justify-content: center;
     border: 0;
     border-radius: 5px;
-    background: var(--blue);
-    color: var(--white);
     font-size: 1.25rem;
     font-weight: 600;
     transition: background-color 0.2s;
+    color: var(--white);
+    background: ${props => props.stop ? 'var(--red)' : 'var(--blue)'};
 
     &:hover{
-        background: var(--blue-dark);
+        background: ${props => props.stop ? 'var(--red-dark)' : 'var(--blue-dark)'};
     }
 `
