@@ -44,8 +44,6 @@ export const Button = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 0;
-    border-radius: 5px;
     font-size: 1.25rem;
     font-weight: 600;
     transition: background-color 0.2s;
@@ -57,6 +55,8 @@ export const Button = styled.button`
     }
 
     &:disabled{
+        border: 0;
+        border-bottom: 5px solid var(--green);
         background: var(--white);
         color: var(--text);
         cursor: not-allowed;

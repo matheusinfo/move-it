@@ -54,7 +54,7 @@ export function Countdown(){
                 <Button 
                     disabled
                 >
-                    Ciclo encerrado
+                    Ciclo encerrado :D
                 </Button>
             ) : (
                 <>

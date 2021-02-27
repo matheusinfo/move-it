@@ -15,6 +15,11 @@ export const Section = styled.section`
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
     align-content: center;
+
+    @media (max-width: 1024px) {
+        margin-top: 80px;
+        grid-template-columns: 1fr;
+    }
 `
 
 export const LeftContainer = styled.div`
