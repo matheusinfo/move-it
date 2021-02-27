@@ -23,7 +23,7 @@
 </p>
 
 ## Deploy
-- [Vercel](https://move-it-psi-sepia.vercel.app/)
+- [Vercel](https://move-it-psi-sepia.vercel.app/) - https://move-it-psi-sepia.vercel.app/
 
 ## ✨ Tecnologias
 
