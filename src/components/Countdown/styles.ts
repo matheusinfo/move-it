@@ -52,7 +52,13 @@ export const Button = styled.button`
     color: var(--white);
     background: ${props => props.stop ? 'var(--red)' : 'var(--blue)'};
 
-    &:hover{
+    &:not(:disabled):hover{
         background: ${props => props.stop ? 'var(--red-dark)' : 'var(--blue-dark)'};
+    }
+
+    &:disabled{
+        background: var(--white);
+        color: var(--text);
+        cursor: not-allowed;
     }
 `
