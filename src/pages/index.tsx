@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { GetServerSideProps } from 'next'
 
-import { Container, Section, LeftContainer } from './styles'
+import { Container, Section, LeftContainer } from '../styles/_app'
 import { ExperienceBar, Profile, CompletedChallenges, Countdown, ChallengeBox } from '../components'
 import { ChallengesProvider, CountdownProvider } from '../contexts'
 
