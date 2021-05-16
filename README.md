@@ -43,7 +43,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🚀 Como executar
 
-- Clone o repositório
+- Clone o repositório (git clone https://github.com/MatheusINFO/move-it.git)
 - Instale as dependências com `yarn`
 - Inicie o servidor com `yarn dev`
 
